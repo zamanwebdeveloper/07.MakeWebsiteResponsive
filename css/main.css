@@ -431,9 +431,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26722', end
 /*Responsive Design*/
 
 
-@media only screen (min-width:480px) and (max-width:768px){}
-@media only screen (min-width:320px) and (max-width:460px){}
-@media only screen (min-width:240px) and (max-width:319px){}
+@media only screen and (min-width:480px) and (max-width:768px){
+	.template{width:760px;}
+	.title {width: 247px;}	
+	.title h2 {font-size: 23px;}
+	.mainmenu {width: 452px; margin-top: 44px;}
+	.maintop h2 {font-size: 24px;}
+	.maintop h3 {font-size: 20px;}
+	.description p {font-size: 14px; line-height: 20px;}
+	.maintop {margin: 10px 50px;}
+	.midcontent {height: 200px;}
+	.midleft {
+	float: left;
+	width: 245px;
+	margin-right: 35px;
+	text-align: center;
+	padding: 20px 40px;
+}
+.midleft h2 {
+	font-size: 27px;
+	border-bottom: 2px dotted #fff;
+	padding-bottom: 30px;
+	width: 188px;
+	margin-left: 29px;
+}
+.midleft p {
+	font-size: 9px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.midimage {
+	/* float: left; */
+	width: 265px;
+}
+.midimage img {
+	width: 234px;
+}
+}
+@media only screen and (min-width:320px) and (max-width:460px){
+	.template{width:450px;}
+}
+@media only screen and (min-width:240px) and (max-width:319px){
+	.template{width:310px;}
+}
 
 
 
